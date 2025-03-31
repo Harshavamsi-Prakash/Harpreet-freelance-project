@@ -203,7 +203,8 @@ def main():
                     fig.update_layout(
                         title="<b>2. Wind Direction vs. Speed</b><br>Polar plot showing wind patterns",
                         polar=dict(
-                            radialaxis=dict(visible=True),
+                            radialaxis=dict(visible=True)
+                        ),
                         showlegend=False
                     )
                     st.plotly_chart(fig, use_container_width=True)
